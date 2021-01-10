@@ -1,0 +1,60 @@
+@import './HeaderNDrawer.scss';
+@import './Body.scss';
+@import './Footer.scss';
+@import './List.scss';
+@import './About.scss';
+@import './LoadingNError.scss';
+@import './Details.scss';
+@import './Responsive/Responsive.scss';
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    overflow-x: hidden !important;
+}
+* {
+    margin: 0;
+    button {
+        outline: none !important;
+    }
+    a {
+        text-decoration: none !important;
+    }
+}
+@font-face {
+    src: url("./afont.ttf");
+    font-family: afont;
+}
+@font-face {
+    src: url("./bfont.ttf");
+    font-family: bfont;
+}
+@font-face {
+    src: url("./cfont.ttf");
+    font-family: cfont;
+}
+
+
+
+
+
+
+
+.app {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+
+    background-image: url('../images/wallpaper2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

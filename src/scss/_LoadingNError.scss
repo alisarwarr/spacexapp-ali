@@ -1,0 +1,88 @@
+.loading, .error {
+    box-shadow: none !important;
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+
+    background-image: url('../images/wallpaper3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 15rem;
+        height: 10rem;
+        object-fit: contain;
+    }
+
+    ul {
+        font-size: 5rem;
+        font-family: bfont;
+        margin-left: -3rem;
+        -webkit-text-stroke-width: 0.75px;
+        -webkit-text-stroke-color: white;
+
+        li {
+            color: goldenrod;
+            list-style-type: none;
+            display: inline;
+            animation: golden 2.7s linear infinite;
+            margin-left: -1.7rem;
+        }
+        
+        li:nth-child(1) {
+            animation-delay: 0s;
+        }
+        li:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+        li:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+        li:nth-child(4) {
+            animation-delay: 0.9s;
+        }
+        li:nth-child(5) {
+            animation-delay: 1.2s;
+        }
+        li:nth-child(6) {
+            animation-delay: 1.5s;
+        }
+        li:nth-child(7) {
+            animation-delay: 1.8s;
+        }
+        li:nth-child(8) {
+            animation-delay: 2.1s;
+        }
+        li:nth-child(9) {
+            animation-delay: 2.4s;
+        }
+        li:nth-child(10) {
+            animation-delay: 2.7s;
+        }
+    }
+}
+
+
+
+
+
+@keyframes golden {
+    0% {
+        text-shadow: none;
+    }
+    90% {
+        text-shadow: none;
+    }
+    100% {
+        color: white;
+    }
+}

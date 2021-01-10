@@ -1,0 +1,61 @@
+.footer {
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top: -9.45rem;
+
+    a {
+        color: white;
+        font-size: 0.9rem;
+        transition-duration: 0.25s;
+        &:hover {
+            color: #FA944B;
+        }
+    }
+
+    .btn {
+        color: black;
+        transition-duration: 0.2s;
+        height: 2.15rem;
+        width: 5.55rem;
+        font-size: 0.88rem;
+        /* Animation */
+        transition: transform 450ms;
+
+        &:hover {
+            background-color: black;
+            border-color: black;
+            color: #FA944B;
+            /* Animation */
+            transform: scale(1.065);
+            transition: 0.3s;
+        }
+    }
+
+    .footer-copyright {
+        font-size: 0.825rem;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        margin-left: 0.85rem;
+        
+        .icon {
+            background-color: white;
+            border-radius: 100%;
+            margin-right: 1.15rem;
+            border: 1px solid white;
+            height: 2.75rem !important;  //forcing react-social-icons
+            width: 2.75rem !important;   //forcing react-social-icons
+            /* Animation */
+            transition: transform 450ms;
+
+            &:hover {
+                background-color: black;
+                /* Animation */
+                transform: scale(1.1);
+                transition: 0.25s;
+            }
+        }
+    }
+}

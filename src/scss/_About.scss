@@ -1,0 +1,95 @@
+.about {
+    &_about {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+
+        background-image: url('../images/wallpaper4.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        table, th, td {
+            border: 1px solid white;
+            text-align: center;
+        }
+
+        table, p {
+            width: 44.5rem;
+            margin-left: 1.825rem;
+            border: 3px solid white;
+        }
+
+        th {
+            background-color: #138acf;
+            color: white;
+            font-family: afont;
+            font-size: 3.25rem;
+            letter-spacing: 5px;
+            word-spacing: -3px;
+            width: 35%;
+            height: 4.5rem;
+        }
+        
+        td {
+            background-color: #7da27e;
+            color: white;
+            font-family: cfont;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            text-align: center;
+            line-height: 10px;
+            width: 65%;
+            height: 4.5rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        p {
+            height: 3rem;
+            font-family: monospace;
+            font-size: 1.3rem;
+            background-color: goldenrod;
+            font-weight: bold;
+            font-family: bfont;
+            text-align: center;
+            line-height: 2.75rem;
+            letter-spacing: 2px;
+            word-spacing: 1px;
+            border-bottom: 0;
+        }
+
+        table {
+            
+            &:hover {
+                th, td {
+                    border: 1px solid rgb(124, 121, 121);
+                }
+    
+                th {
+                    background-color: black;
+                    color: white;
+                    -webkit-text-stroke-width: 1.2px;
+                    -webkit-text-stroke-color: rgb(179, 68, 68);
+                }
+                
+                td {
+                    background-color: white;
+                    color: rgb(179, 68, 68);
+                    a {
+                        color: rgb(179, 68, 68);
+                    }    
+                }
+            }
+        }
+    }
+}
